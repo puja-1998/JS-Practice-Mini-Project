@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to left,blue, purple);
+    height: auto;
+    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.search{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+}
+.searchimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+}
+.imgCity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.temp{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+.humidity, .wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.imgCity p{
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+}
+.temp p{
+    color: white;
+    font-size: 14px;  
+}

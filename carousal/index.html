@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="crousel">
+            <div class="item">
+                <img src="https://sadanandpai.github.io/frontend-mini-challenges/javascript/assets/1-6Q-Ljgvj.jpg" alt="Image 1">
+            </div>
+            <div class="item">
+                <img src="https://sadanandpai.github.io/frontend-mini-challenges/javascript/assets/2-ts1ERVp4.jpg" alt="Image 2">
+            </div>
+            <div class="item">
+                <img src="https://sadanandpai.github.io/frontend-mini-challenges/javascript/assets/3-BKsjAI35.jpg" alt="Image 3">
+            </div>
+            <div class="item">
+                <img src="https://sadanandpai.github.io/frontend-mini-challenges/javascript/assets/4-jBKFNbbR.jpg" alt="Image 4">
+            </div>
+            <div class="item">
+                <img src="https://sadanandpai.github.io/frontend-mini-challenges/javascript/assets/5-BdOPS-VD.jpg" alt="Image 5">
+            </div>    
+        </div>
+        
+            <button  class="prev"><</button>
+            <button  class="next">></button>
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <div class="infiniteScroll">
+            <label for="Infinite Scroll">Infinite Scroll</label>
+            <input type="checkbox" name="InfiniteScroll" id="InfiniteScroll">
+        </div>
+        <div class="autoplay">
+            <label for="autoplay">Autoplay</label>
+            <input type="checkbox" name="autoplay" id="autoplay">
+        </div>
+        <div class="autoplayInterval">
+            <label for="autoplayInterval">Autoplay Interval</label>
+            <input type="range" name="autoplayInterval" id="autoplayInterval"  min="1000" max="5000" value="3000" step="1000">
+        </div>
+</div>
+    <!-- <script src="./script.js"></script> -->
+     <script src="./carousal.js"></script>
+</body>
+</html>
