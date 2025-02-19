@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    box-shadow: 0 2px  5px 0 gray;
+    text-align: center;
+}
+
+main{
+    height: 180px;
+    margin:20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px  5px 0 gray;
+}
+label, .result{
+    font-size: large;
+}
+.inputDiv, .btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    height: 30px;
+    padding-left: 10px;
+}
+.btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: aquamarine;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
